@@ -1,0 +1,499 @@
+/*
+* @Author: Administrator
+* @Date:   2018-06-06 14:47:43
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-06-10 20:02:28
+*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?wez0oh');
+  src:  url('../fonts/icomoon.eot?wez0oh#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?wez0oh') format('truetype'),
+    url('../fonts/icomoon.woff?wez0oh') format('woff'),
+    url('../fonts/icomoon.svg?wez0oh#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.clerfix::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+* {
+	margin: 0;
+	padding: 0;	
+}
+/* *, *::before, *::after{
+	box-sizing: border-box;
+} */
+.style-red {
+	color: #ffc107 !important;
+}
+ .Forced {
+ 	background-color: #fff!important;
+ 	color: #000 !important;
+ }
+ html,body {
+
+ 	font: 14px/1.5 Arial;
+   /* max-width: 1190px; */
+ }
+/* 头部开始 */
+header {
+     background: rgba(0, 0, 0, .5);
+     float: left;
+     float: right;
+     width: 100%;
+     /* height: 100%; */
+     /* min-height: 500px; */
+}
+.head-ct {
+	width: 1160px;
+	height: 86px;	
+	margin: 0 auto;
+	line-height: 85px;
+}
+.headline {
+	/* width: 1190px; */
+    text-align: center;
+    font-size: 5em;
+    color: #ccc;     
+    padding-top: 28%;
+    position: relative;
+} 
+.headline h2 {
+    font-weight: 100;
+    letter-spacing: 5px;
+    /* background-color: pink;      */
+}
+ .headline .left i {   
+    position: absolute;  
+    left: 50px;
+    bottom: -9px;
+	font-family: 'icomoon';     
+	font-size: 88px;
+    font-style: normal; 
+    color: #FFF;   	
+  } 
+   .headline .right i {   
+    position: absolute;  
+    right: 50px;
+    bottom: -9px;
+	font-family: 'icomoon';     
+	font-size: 88px;
+    font-style: normal; 
+    color: #FFF;   	
+  }
+
+.logo {
+	float: left;
+ 	font-size: 25px;
+	margin-left: -10px; 
+    letter-spacing: 5px;
+}	
+.logo h2 {
+	font-weight: normal;
+    color: #fff;
+    padding-left: 50px;	
+}
+.navbar {
+	float: right;
+	padding-right: 75px;
+	position: relative;
+	z-index: 2;
+}
+.navbar li {
+	float: left;
+}
+.navbar li a {
+	padding: 17px 15px;
+	margin: 0 9px;
+	color: #fff;
+    border-radius: 8px;
+}
+.head-ct .navbar a:hover {
+	background-color: #fff;
+	color: #000;
+} 
+.navbar i {
+	position: absolute;  
+	right: 53px;     
+	top: 4px;     
+	font-family: 'icomoon';
+    font-size: 22px;     
+    font-style: normal;     
+    cursor:pointer; 
+    color: #fff; 
+    } 
+.navbar i:hover {
+	color:#ffc107; 
+}
+main {     
+    height: 800px;     
+    background:url('../images/2.jpg') no-repeat; 
+    background-size: cover; /* 让图片左右撑满 
+ */} 
+.mosaic {      
+	width: auto;      
+	height: 100%;
+    background: url('../images/dott.png')repeat 0px 0px;      
+} 
+/* 工作介绍 */
+.head {
+    height: 588px;         
+    text-align: center; 
+} 
+.head .Job-in {    
+    width: 1100px;     
+    margin: 0 auto;     
+    padding-top: 35px;     
+    font-size: 18px;
+    line-height:25px;  
+}
+.head .Job-de h2 {
+	margin-bottom: 48px;
+}
+.xian {
+	width: 80px;
+	border-bottom: 4px solid;
+	margin: 10px auto 0;
+	color: #ffc107	;
+}
+.resume {
+	width: 1190px;
+	margin: 50px auto;
+	text-align: left ;
+}
+.resume .Job-de {
+    float: left;
+    width: 33%;
+}
+.resume .Job-de dl {
+	font-size: 10px;
+}
+.resume .Job-de h4 {
+	margin:12px 0;
+}
+.resume .Job-de a {
+    display: block;
+	padding-top: 8px;
+	position: relative;
+	text-decoration: underline ;
+}
+.Job-de i {
+	position: absolute;
+	left: 88px;
+	top: 14px;
+	font-family: 'icomoon';     
+	font-size: 8px;
+    font-style: normal;
+    text-decoration: none;
+}
+/* 咖啡制作介绍 */
+
+.Middle-page {
+	/* background-color: pink; */
+	padding: 50px 0 0;
+	margin: 0 auto;
+	position: relative
+}
+div[class^=drop]{
+	float: left;
+}
+.hf-drop {
+	width: 1190px;
+	margin: 0 auto;
+}
+.drop-1 {
+width: 634px;
+}
+.drop-1 img {
+	width: 100%;
+	height: 500px;
+	margin-bottom: 20px;
+}
+.drop-2 {
+	margin-left: 80px;
+width: 40%;
+}
+.drop-2 img {
+    width: 350px;
+    height: 350px;
+}
+.drop-2 h2 {
+	margin: 20px auto;
+}
+.drop-2 p {
+    line-height: 25px;
+    margin-bottom: 9px;	
+}
+.drop img:hover {
+	cursor: pointer;
+}
+.statistics {
+	/* width: 1190px; */
+	height: 264px;
+}
+.statistics-1 {
+	color: #666;
+    float: left;
+    width: 25%;
+	background-color: #000;
+	text-align: center;
+	border-right: 1px solid;
+	padding: 50px 0;
+	box-sizing: border-box;
+
+}
+.statistics-1 p {
+	font-size: 2em;	
+	padding: 30px;
+	color: #bee1fc;
+}
+.statistics-1 i {
+    font-family: 'icomoon';     
+	font-size: 2em;
+    font-style: normal;
+    text-decoration: none;
+    color: #fff;
+}
+.statistics-1 h4 {
+	color: #fff;
+}
+.statistics-1 h4:hover {
+	color:#ffc107; 
+}
+
+.tion {
+	/* height: 800px; */
+	/* background-color: pink; */
+}
+
+.tir   {
+	/* height: 500px; */
+	/* background-color: ; */
+	text-align: center;
+	padding: 30px 0 0;
+
+}
+.tir h2 {
+	display: inline-block;
+    font-size: 45px;
+    font-weight: 100;
+    margin-bottom: 5px;
+    background-color: #ccc;
+} 
+.xian-1 {
+	width: 150px;
+	border-bottom: 4px solid;
+	margin: 10px auto 0;
+	color: #ffc107	;
+}
+.tir li {
+	display: inline-block;
+	text-align: center;
+	margin: 40px auto 0;
+	padding: 0 3px ;
+	font-size: 14px;
+}
+.tir a {
+     color: #666;
+}
+.tir a:hover {
+	color:#17a2b8; 
+}
+/* 美食展示 */
+.Content {
+	margin-left: 30px;
+}
+.Content-1 {
+	margin-top: 20px;
+	float: left;
+	margin-left: 15px;
+}
+.Content-1 h5 {
+	font-size: 18px;
+	margin-bottom: 8px;
+	margin-left: 20px;
+}
+.Content-1 p {
+	font-size: 12px;
+	margin-left: 20px;
+}
+.Content-1 img {
+	vertical-align: middle;
+}
+.Content-1 .h-p:hover { 
+	background-color: #999;
+ }
+ .h-p {
+ 	padding-bottom: 10px;
+ }
+ .h-p:hover {
+ 	cursor: pointer;
+ }
+ .h-p p:hover {
+ 	color: #fff;
+ }
+.shift-up {
+	margin-top: 20px;
+	/* box-shadow: 2px 4px 2px 3px rgba(0, 0, 0, .3); */
+}
+/* 厨师介绍 */
+.introduce {
+	height: 570px;
+	/* background-color: pink; */
+	/* margin-bottom: 10px; */
+}
+.introduce h2 {
+	padding: 60px 0;
+	text-align: center;
+	font-size:45px; 
+}
+/* .xian- {
+	width: 150px;
+	border-bottom: 4px solid;
+	margin: 10px auto 0;
+	color: #ffc107;
+} */
+.introduce-a {
+	width: 944px;
+    overflow: hidden;
+	margin: 0 auto;
+	/* background-color: #666; */
+}
+ .introduce-a .introduce-1 {
+	float: left;
+	width: 300px;
+	height: 300px;
+	margin-right: 22px;	
+	/* margin-top: 10px; */
+}
+.introduce-a  ul {
+	margin-right:-22px;
+}
+.introduce-1 img {
+/* 	width: 100%;
+height: auto; */	
+	/* border-radius: 8px;	 */
+}
+.footer-a {
+		/* background-color: pink; */
+	height: 530px;
+	text-align: center;
+	background: url('../images/doodles.png');
+	border-top: 1px solid #ccc;
+}
+.footer-b {
+     width: 600px;
+     height: 500px;
+     /* background-color: pink; */
+     margin: 0 auto;
+     position: relative;
+} 
+.footer-b h2 {
+	font-size: 45px;
+	padding: 40px 0 40px ;
+}
+.footer-b .xian {
+	width: 150px;
+}
+.footer-b p {
+	line-height: 24px;
+	letter-spacing: 3px;
+	margin-bottom: 35px;
+}
+ .footer-b input {
+    height: 26px;    
+    width: 400px; 
+    padding: 6px;    
+}
+.footer-b button {
+	margin: 20px auto 40px;
+	width: 220px;
+	height: 40px;
+	border: 0;
+	letter-spacing: 6px;
+	outline: none;
+}
+button:hover {
+	background-color: #ffc107;
+	color: #fff;
+}
+.footer-1 h3 {
+	position: absolute;
+	bottom: 108px;
+	right: 706px;
+	font-size: 22px;
+	font-weight: 100;
+}
+.ico {
+	margin:  30px auto 0;
+	right: 126px;
+	width: 250px;
+}
+.ico a {
+	font-family: 'icomoon';     
+	font-size: 2em;
+    font-style: normal;
+    text-decoration: none;
+    color: #000;
+    margin-left: 10px;
+}
+.ico a:hover {
+    background-color: #ffc107;
+}
+/* 最底部开始 */
+footer {
+	height: 120px;
+	background-color: #000;
+	
+}
+.foot-nav {
+	width: 1140px;
+	height: 120px;
+	background-color: #000;
+	margin: 0 auto;
+	color: #fff;
+	position: relative;
+}
+.foot-nav h2 {
+	position: absolute;
+    right: 482px;
+    top: 46px;
+    font-size: 32px;
+} 
+.foot-nav-a {
+	width: 40%;
+	float: left;
+	margin-top: 56px;
+	text-align: right
+}
+.foot-nav p {
+	text-align: right
+}
+.foot-nav-b {
+	margin-top: 28px;
+	width: 40%;
+	float: right;
+	color: #fff;
+}
+.foot-nav-b li {
+	float: left;
+	margin-top: 26px;
+	text-align: center;
+	margin-right: 16px;
+}
+.foot-nav-b li a {
+    color: #fff;
+}
+.foot-nav a:hover {
+	color: #ffc107;
+
+}
